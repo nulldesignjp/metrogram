@@ -1,0 +1,2490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stations>
+	<line id="ginza" name="銀座線" color="fd8319">
+		<item id="G01">
+			<name>渋谷</name>
+			<english>Shibuya</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.659097969548</latitude>
+				<longitude>139.70267340405</longitude>
+			</location>
+			<connection>Z01,F16</connection>
+		</item>
+		<item id="G02">
+			<name>表参道</name>
+			<english>OmoteSando</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.665042546167</latitude>
+				<longitude>139.71247269515</longitude>
+			</location>
+			<connection>C04,Z02</connection>
+		</item>
+		<item id="G03">
+			<name>外苑前</name>
+			<english>Gaiemmae</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.670375</latitude>
+				<longitude>139.717825</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="G04">
+			<name>青山一丁目</name>
+			<english>AoyamaItchome</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.672789183053</latitude>
+				<longitude>139.72414527077</longitude>
+			</location>
+			<connection>Z03</connection>
+		</item>
+		<item id="G05">
+			<name>赤坂見附</name>
+			<english>AkasakaMitsuke</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.676845218561</latitude>
+				<longitude>139.73734734787</longitude>
+			</location>
+			<connection>M13,Y16,Z04,N07</connection>
+		</item>
+		<item id="G06">
+			<name>溜池山王</name>
+			<english>TameikeSanno</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.671511270087</latitude>
+				<longitude>139.74194259184</longitude>
+			</location>
+			<connection>N06,C07,M14</connection>
+		</item>
+		<item id="G07">
+			<name>虎ノ門</name>
+			<english>Toranomon</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.67016</latitude>
+				<longitude>139.75012</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="G08">
+			<name>新橋</name>
+			<english>Shimbashi</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.667381603947</latitude>
+				<longitude>139.75851167537</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="G09">
+			<name>銀座</name>
+			<english>Ginza</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.671499080838</latitude>
+				<longitude>139.76536588353</longitude>
+			</location>
+			<connection>M16,H08</connection>
+		</item>
+		<item id="G10">
+			<name>京橋</name>
+			<english>Kyobashi</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.67670362917</latitude>
+				<longitude>139.77010915362</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="G11">
+			<name>日本橋</name>
+			<english>Nihombashi</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.681879964519</latitude>
+				<longitude>139.77333505539</longitude>
+			</location>
+			<connection>T10</connection>
+		</item>
+		<item id="G12">
+			<name>三越前</name>
+			<english>Mitsukoshimae</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.6871737671</latitude>
+				<longitude>139.77358229122</longitude>
+			</location>
+			<connection>Z09</connection>
+		</item>
+		<item id="G13">
+			<name>神田</name>
+			<english>Kanda</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.693715</latitude>
+				<longitude>139.77089</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="G14">
+			<name>末広町</name>
+			<english>Suehirocho</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.702780272481</latitude>
+				<longitude>139.77176265186</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="G15">
+			<name>上野広小路</name>
+			<english>UenoHirokoji</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.70776584571</latitude>
+				<longitude>139.77301168337</longitude>
+			</location>
+			<connection>H16</connection>
+		</item>
+		<item id="G16">
+			<name>上野</name>
+			<english>Ueno</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.71183592921</latitude>
+				<longitude>139.77562474204</longitude>
+			</location>
+			<connection>H17</connection>
+		</item>
+		<item id="G17">
+			<name>稲荷町</name>
+			<english>Inaricho</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.711388290524</latitude>
+				<longitude>139.78221057307</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="G18">
+			<name>田原町</name>
+			<english>Tawaramachi</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.70991708777</latitude>
+				<longitude>139.79030645676</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="G19">
+			<name>浅草</name>
+			<english>Asakusa</english>
+			<railway>ginza</railway>
+			<location>
+				<latitude>35.710746306038</latitude>
+				<longitude>139.79777333243</longitude>
+			</location>
+			<connection></connection>
+		</item>
+	</line>
+	<line id="hanzomon" name="半蔵門線" color="8664ae">
+		<item id="Z01">
+			<name>渋谷</name>
+			<english>Shibuya</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.65945</latitude>
+				<longitude>139.701035</longitude>
+			</location>
+			<connection>G01,F16</connection>
+		</item>
+		<item id="Z02">
+			<name>表参道</name>
+			<english>OmoteSando</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.665142546167</latitude>
+				<longitude>139.71238269515</longitude>
+			</location>
+			<connection>G02,C04</connection>
+		</item>
+		<item id="Z03">
+			<name>青山一丁目</name>
+			<english>AoyamaItchome</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.67295624075</latitude>
+				<longitude>139.72407459468</longitude>
+			</location>
+			<connection>G04</connection>
+		</item>
+		<item id="Z04">
+			<name>永田町</name>
+			<english>Nagatacho</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.678407776209</latitude>
+				<longitude>139.73886474509</longitude>
+			</location>
+			<connection>G05,M13,Y16,N07</connection>
+		</item>
+		<item id="Z05">
+			<name>半蔵門</name>
+			<english>Hanzomon</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.68538</latitude>
+				<longitude>139.741695</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Z06">
+			<name>九段下</name>
+			<english>Kudanshita</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.69550051349</latitude>
+				<longitude>139.75111670257</longitude>
+			</location>
+			<connection>T07</connection>
+		</item>
+		<item id="Z07">
+			<name>神保町</name>
+			<english>Jimbocho</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.696021459932</latitude>
+				<longitude>139.7575599478</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Z08">
+			<name>大手町</name>
+			<english>Otemachi</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.686745</latitude>
+				<longitude>139.764905</longitude>
+			</location>
+			<connection>M18,T09,C11</connection>
+		</item>
+		<item id="Z09">
+			<name>三越前</name>
+			<english>Mitsukoshimae</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.684928559391</latitude>
+				<longitude>139.77307990902</longitude>
+			</location>
+			<connection>G12</connection>
+		</item>
+		<item id="Z10">
+			<name>水天宮前</name>
+			<english>Suitengumae</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.683000685428</latitude>
+				<longitude>139.78517144793</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Z11">
+			<name>清澄白河</name>
+			<english>KiyosumiShirakawa</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.682119459398</latitude>
+				<longitude>139.79984001603</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Z12">
+			<name>住吉</name>
+			<english>Sumiyoshi</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.688704739668</latitude>
+				<longitude>139.8156677931</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Z13">
+			<name>錦糸町</name>
+			<english>Kinshicho</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.697440089478</latitude>
+				<longitude>139.81495619008</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Z14">
+			<name>押上〈スカイツリー前〉</name>
+			<english>Oshiage</english>
+			<railway>hanzomon</railway>
+			<location>
+				<latitude>35.708467369776</latitude>
+				<longitude>139.81373493359</longitude>
+			</location>
+			<connection></connection>
+		</item>
+	</line>
+	<line id="chiyoda" name="千代田線" color="33a34a">
+		<item id="C01">
+			<name>代々木上原</name>
+			<english>YoyogiUehara</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.669017156586</latitude>
+				<longitude>139.67988396111</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C02">
+			<name>代々木公園</name>
+			<english>YoyogiKoen</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.669104635931</latitude>
+				<longitude>139.68979065073</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C03">
+			<name>明治神宮前〈原宿〉</name>
+			<english>MeijiJingumae</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.66912333351</latitude>
+				<longitude>139.70394346626</longitude>
+			</location>
+			<connection>F15</connection>
+		</item>
+		<item id="C04">
+			<name>表参道</name>
+			<english>OmoteSando</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.665651986702</latitude>
+				<longitude>139.71134596643</longitude>
+			</location>
+			<connection>G02,Z02</connection>
+		</item>
+		<item id="C05">
+			<name>乃木坂</name>
+			<english>Nogizaka</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.666591907378</latitude>
+				<longitude>139.72622853745</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C06">
+			<name>赤坂</name>
+			<english>Akasaka</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.672104763673</latitude>
+				<longitude>139.73641362793</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C07">
+			<name>国会議事堂前</name>
+			<english>KokkaiGijidomae</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.673565216724</latitude>
+				<longitude>139.74318786546</longitude>
+			</location>
+			<connection>M14,G06,N06</connection>
+		</item>
+		<item id="C08">
+			<name>霞ケ関</name>
+			<english>Kasumigaseki</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.67256</latitude>
+				<longitude>139.75177</longitude>
+			</location>
+			<connection>M15,H06</connection>
+		</item>
+		<item id="C09">
+			<name>日比谷</name>
+			<english>Hibiya</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.673955</latitude>
+				<longitude>139.758765</longitude>
+			</location>
+			<connection>H07,Y18</connection>
+		</item>
+		<item id="C10">
+			<name>二重橋前</name>
+			<english>Nijubashimae</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.680505</latitude>
+				<longitude>139.76178</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C11">
+			<name>大手町</name>
+			<english>Otemachi</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.68525</latitude>
+				<longitude>139.763285</longitude>
+			</location>
+			<connection>M18,T09,Z08</connection>
+		</item>
+		<item id="C12">
+			<name>新御茶ノ水</name>
+			<english>ShinOchanomizu</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.696925</latitude>
+				<longitude>139.76545</longitude>
+			</location>
+			<connection>M19</connection>
+		</item>
+		<item id="C13">
+			<name>湯島</name>
+			<english>Yushima</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.706805144737</latitude>
+				<longitude>139.76998071705</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C14">
+			<name>根津</name>
+			<english>Nezu</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.717325</latitude>
+				<longitude>139.76575</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C15">
+			<name>千駄木</name>
+			<english>Sendagi</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.725745759653</latitude>
+				<longitude>139.76330335437</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C16">
+			<name>西日暮里</name>
+			<english>NishiNippori</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.732355155066</latitude>
+				<longitude>139.76688994252</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C17">
+			<name>町屋</name>
+			<english>Machiya</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.742068362196</latitude>
+				<longitude>139.78004754703</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C18">
+			<name>北千住</name>
+			<english>KitaSenju</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.749200300792</latitude>
+				<longitude>139.80440373007</longitude>
+			</location>
+			<connection>H21</connection>
+		</item>
+		<item id="C19">
+			<name>綾瀬</name>
+			<english>Ayase</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.762285</latitude>
+				<longitude>139.82489</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="C20">
+			<name>北綾瀬</name>
+			<english>KitaAyase</english>
+			<railway>chiyoda</railway>
+			<location>
+				<latitude>35.77689</latitude>
+				<longitude>139.832095</longitude>
+			</location>
+			<connection></connection>
+		</item>
+	</line>
+	<line id="marunouchi" name="丸ノ内線" color="fe0d09">
+		<item id="M01">
+			<name>荻窪</name>
+			<english>Ogikubo</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.704175</latitude>
+				<longitude>139.61976</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M02">
+			<name>南阿佐ケ谷</name>
+			<english>MinamiAsagaya</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.699455</latitude>
+				<longitude>139.635575</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M03">
+			<name>新高円寺</name>
+			<english>ShinKoenji</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.69786</latitude>
+				<longitude>139.64851</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M04">
+			<name>東高円寺</name>
+			<english>HigashiKoenji</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.697965</latitude>
+				<longitude>139.658295</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M05">
+			<name>新中野</name>
+			<english>ShinNakano</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.697475</latitude>
+				<longitude>139.66951</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M06">
+			<name>中野坂上</name>
+			<english>NakanoSakaue</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.697085</latitude>
+				<longitude>139.682205</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M07">
+			<name>西新宿</name>
+			<english>NishiShinjuku</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.694515</latitude>
+				<longitude>139.69256</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M08">
+			<name>新宿</name>
+			<english>Shinjuku</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.692451882476</latitude>
+				<longitude>139.70054754663</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M09">
+			<name>新宿三丁目</name>
+			<english>ShinjukuSanchome</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.69118</latitude>
+				<longitude>139.70421</longitude>
+			</location>
+			<connection>F13</connection>
+		</item>
+		<item id="M10">
+			<name>新宿御苑前</name>
+			<english>ShinjukuGyoemmae</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.688525</latitude>
+				<longitude>139.710915</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M11">
+			<name>四谷三丁目</name>
+			<english>YotsuyaSanchome</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.687835</latitude>
+				<longitude>139.719325</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M12">
+			<name>四ツ谷</name>
+			<english>Yotsuya</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.684196394742</latitude>
+				<longitude>139.73004746949</longitude>
+			</location>
+			<connection>N08</connection>
+		</item>
+		<item id="M13">
+			<name>赤坂見附</name>
+			<english>AkasakaMitsuke</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.676845218561</latitude>
+				<longitude>139.73734734787</longitude>
+			</location>
+			<connection>G05,Y16,Z04,N07</connection>
+		</item>
+		<item id="M14">
+			<name>国会議事堂前</name>
+			<english>KokkaiGijidomae</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.674926710024</latitude>
+				<longitude>139.74547282797</longitude>
+			</location>
+			<connection>C07,G06,N06</connection>
+		</item>
+		<item id="M15">
+			<name>霞ケ関</name>
+			<english>Kasumigaseki</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.674235</latitude>
+				<longitude>139.75268</longitude>
+			</location>
+			<connection>H06,C08</connection>
+		</item>
+		<item id="M16">
+			<name>銀座</name>
+			<english>Ginza</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.673158817668</latitude>
+				<longitude>139.76387646175</longitude>
+			</location>
+			<connection>G09,H08</connection>
+		</item>
+		<item id="M17">
+			<name>東京</name>
+			<english>Tokyo</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.681935</latitude>
+				<longitude>139.7648</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M18">
+			<name>大手町</name>
+			<english>Otemachi</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.686875446012</latitude>
+				<longitude>139.76620320774</longitude>
+			</location>
+			<connection>T09,C11,Z08</connection>
+		</item>
+		<item id="M19">
+			<name>淡路町</name>
+			<english>Awajicho</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.69487</latitude>
+				<longitude>139.767455</longitude>
+			</location>
+			<connection>C12</connection>
+		</item>
+		<item id="M20">
+			<name>御茶ノ水</name>
+			<english>Ochanomizu</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.70043</latitude>
+				<longitude>139.764405</longitude>
+			</location>
+			<connection>Chiyoda</connection>
+		</item>
+		<item id="M21">
+			<name>本郷三丁目</name>
+			<english>HongoSanchome</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.706726412951</latitude>
+				<longitude>139.76015391787</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M22">
+			<name>後楽園</name>
+			<english>Korakuen</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.707306676989</latitude>
+				<longitude>139.7508602691</longitude>
+			</location>
+			<connection>N11</connection>
+		</item>
+		<item id="M23">
+			<name>茗荷谷</name>
+			<english>Myogadani</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.7172</latitude>
+				<longitude>139.736895</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M24">
+			<name>新大塚</name>
+			<english>ShinOtsuka</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.726129638041</latitude>
+				<longitude>139.72935474587</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="M25">
+			<name>池袋</name>
+			<english>Ikebukuro</english>
+			<railway>marunouchi</railway>
+			<location>
+				<latitude>35.730345</latitude>
+				<longitude>139.71115</longitude>
+			</location>
+			<connection>Y09,F09</connection>
+		</item>
+	</line>
+	<line id="namboku" name="南北線" color="00947b">
+		<item id="N01">
+			<name>目黒</name>
+			<english>Meguro</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.632485</latitude>
+				<longitude>139.71566</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N02">
+			<name>白金台</name>
+			<english>Shirokanedai</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.63777</latitude>
+				<longitude>139.72586</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N03">
+			<name>白金高輪</name>
+			<english>ShirokaneTakanawa</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.643145</latitude>
+				<longitude>139.734285</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N04">
+			<name>麻布十番</name>
+			<english>AzabuJuban</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.65481</latitude>
+				<longitude>139.737045</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N05">
+			<name>六本木一丁目</name>
+			<english>RoppongiItchome</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.665075</latitude>
+				<longitude>139.7389</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N06">
+			<name>溜池山王</name>
+			<english>TameikeSanno</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.673090034443</latitude>
+				<longitude>139.74129363896</longitude>
+			</location>
+			<connection>G06</connection>
+		</item>
+		<item id="N07">
+			<name>永田町</name>
+			<english>Nagatacho</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.678338800346</latitude>
+				<longitude>139.73928767151</longitude>
+			</location>
+			<connection>G05,M13,Y16,Z04</connection>
+		</item>
+		<item id="N08">
+			<name>四ツ谷</name>
+			<english>Yotsuya</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.686081524835</latitude>
+				<longitude>139.72967950677</longitude>
+			</location>
+			<connection>M12</connection>
+		</item>
+		<item id="N09">
+			<name>市ケ谷</name>
+			<english>Ichigaya</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.692894118569</latitude>
+				<longitude>139.73632414427</longitude>
+			</location>
+			<connection>Y14</connection>
+		</item>
+		<item id="N10">
+			<name>飯田橋</name>
+			<english>Iidabashi</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.701532412874</latitude>
+				<longitude>139.74371504825</longitude>
+			</location>
+			<connection>T06,Y13</connection>
+		</item>
+		<item id="N11">
+			<name>後楽園</name>
+			<english>Korakuen</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.708389974194</latitude>
+				<longitude>139.7517865726</longitude>
+			</location>
+			<connection>M22</connection>
+		</item>
+		<item id="N12">
+			<name>東大前</name>
+			<english>Todaimae</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.718014456989</latitude>
+				<longitude>139.75788084133</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N13">
+			<name>本駒込</name>
+			<english>HonKomagome</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.724364348125</latitude>
+				<longitude>139.75381158514</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N14">
+			<name>駒込</name>
+			<english>Komagome</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.735912955617</latitude>
+				<longitude>139.74690922277</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N15">
+			<name>西ケ原</name>
+			<english>Nishigahara</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.745945</latitude>
+				<longitude>139.74226</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N16">
+			<name>王子</name>
+			<english>Oji</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.754470148697</latitude>
+				<longitude>139.73736177204</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N17">
+			<name>王子神谷</name>
+			<english>OjiKamiya</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.765291996165</latitude>
+				<longitude>139.73564094987</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N18">
+			<name>志茂</name>
+			<english>Shimo</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.778025</latitude>
+				<longitude>139.7325</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="N19">
+			<name>赤羽岩淵</name>
+			<english>AkabaneIwabuchi</english>
+			<railway>namboku</railway>
+			<location>
+				<latitude>35.783355</latitude>
+				<longitude>139.72211</longitude>
+			</location>
+			<connection></connection>
+		</item>
+	</line>
+	<line id="hibiya" name="日比谷線" color="c6b8a1">
+		<item id="H01">
+			<name>中目黒</name>
+			<english>NakaMeguro</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.64410802023</latitude>
+				<longitude>139.69883242519</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H02">
+			<name>恵比寿</name>
+			<english>Ebisu</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.647039763414</latitude>
+				<longitude>139.7087003411</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H03">
+			<name>広尾</name>
+			<english>HiroO</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.651499960413</latitude>
+				<longitude>139.72220861331</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H04">
+			<name>六本木</name>
+			<english>Roppongi</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.6628</latitude>
+				<longitude>139.731155</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H05">
+			<name>神谷町</name>
+			<english>Kamiyacho</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.662625</latitude>
+				<longitude>139.744725</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H06">
+			<name>霞ケ関</name>
+			<english>Kasumigaseki</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.673875</latitude>
+				<longitude>139.75106</longitude>
+			</location>
+			<connection>M15,C08</connection>
+		</item>
+		<item id="H07">
+			<name>日比谷</name>
+			<english>Hibiya</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.674271001305</latitude>
+				<longitude>139.76060069199</longitude>
+			</location>
+			<connection>C09,Y18</connection>
+		</item>
+		<item id="H08">
+			<name>銀座</name>
+			<english>Ginza</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.67198360964</latitude>
+				<longitude>139.76400740192</longitude>
+			</location>
+			<connection>G09,M16</connection>
+		</item>
+		<item id="H09">
+			<name>東銀座</name>
+			<english>HigashiGinza</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.669128078421</latitude>
+				<longitude>139.76763315272</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H10">
+			<name>築地</name>
+			<english>Tsukiji</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.667927090977</latitude>
+				<longitude>139.77247336007</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H11">
+			<name>八丁堀</name>
+			<english>Hatchobori</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.675368279422</latitude>
+				<longitude>139.77733445268</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H12">
+			<name>茅場町</name>
+			<english>Kayabacho</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.679078666046</latitude>
+				<longitude>139.77961902639</longitude>
+			</location>
+			<connection>T11</connection>
+		</item>
+		<item id="H13">
+			<name>人形町</name>
+			<english>Ningyocho</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.686258617247</latitude>
+				<longitude>139.78233841483</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H14">
+			<name>小伝馬町</name>
+			<english>Kodemmacho</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.690422674035</latitude>
+				<longitude>139.77875733423</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H15">
+			<name>秋葉原</name>
+			<english>Akihabara</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.697964858632</latitude>
+				<longitude>139.77552918899</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H16">
+			<name>仲御徒町</name>
+			<english>NakaOkachimachi</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.706655</latitude>
+				<longitude>139.77619</longitude>
+			</location>
+			<connection>G15</connection>
+		</item>
+		<item id="H17">
+			<name>上野</name>
+			<english>Ueno</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.711557647029</latitude>
+				<longitude>139.77706059628</longitude>
+			</location>
+			<connection>G16</connection>
+		</item>
+		<item id="H18">
+			<name>入谷</name>
+			<english>Iriya</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.720564890945</latitude>
+				<longitude>139.78446653599</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H19">
+			<name>三ノ輪</name>
+			<english>Minowa</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.729285</latitude>
+				<longitude>139.791165</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H20">
+			<name>南千住</name>
+			<english>MinamiSenju</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.73231</latitude>
+				<longitude>139.79878</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="H21">
+			<name>北千住</name>
+			<english>KitaSenju</english>
+			<railway>hibiya</railway>
+			<location>
+				<latitude>35.749904469579</latitude>
+				<longitude>139.80559172142</longitude>
+			</location>
+			<connection>C18</connection>
+		</item>
+	</line>
+	<line id="tozai" name="東西線" color="0ba2c7">
+		<item id="T01">
+			<name>中野</name>
+			<english>Nakano</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.70574</latitude>
+				<longitude>139.665605</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T02">
+			<name>落合</name>
+			<english>Ochiai</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.710635</latitude>
+				<longitude>139.685965</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T03">
+			<name>高田馬場</name>
+			<english>Takadanobaba</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.71328</latitude>
+				<longitude>139.705045</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T04">
+			<name>早稲田</name>
+			<english>Waseda</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.70568</latitude>
+				<longitude>139.72219</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T05">
+			<name>神楽坂</name>
+			<english>Kagurazaka</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.703865</latitude>
+				<longitude>139.73452</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T06">
+			<name>飯田橋</name>
+			<english>Iidabashi</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.701403564806</latitude>
+				<longitude>139.74652120252</longitude>
+			</location>
+			<connection>Y13,N10</connection>
+		</item>
+		<item id="T07">
+			<name>九段下</name>
+			<english>Kudanshita</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.696091811612</latitude>
+				<longitude>139.75126539327</longitude>
+			</location>
+			<connection>Z06</connection>
+		</item>
+		<item id="T08">
+			<name>竹橋</name>
+			<english>Takebashi</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.69044</latitude>
+				<longitude>139.75767</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T09">
+			<name>大手町</name>
+			<english>Otemachi</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.684696853597</latitude>
+				<longitude>139.76603040465</longitude>
+			</location>
+			<connection>M18,C11,Z08</connection>
+		</item>
+		<item id="T10">
+			<name>日本橋</name>
+			<english>Nihombashi</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.682375128818</latitude>
+				<longitude>139.77410005036</longitude>
+			</location>
+			<connection>G11</connection>
+		</item>
+		<item id="T11">
+			<name>茅場町</name>
+			<english>Kayabacho</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.680345789147</latitude>
+				<longitude>139.77927030373</longitude>
+			</location>
+			<connection>H12</connection>
+		</item>
+		<item id="T12">
+			<name>門前仲町</name>
+			<english>MonzenNakacho</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.671892284379</latitude>
+				<longitude>139.79609888639</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T13">
+			<name>木場</name>
+			<english>Kiba</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.669355307889</latitude>
+				<longitude>139.80711513311</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T14">
+			<name>東陽町</name>
+			<english>Toyocho</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.66959</latitude>
+				<longitude>139.81768</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T15">
+			<name>南砂町</name>
+			<english>MinamiSunamachi</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.668415</latitude>
+				<longitude>139.831695</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T16">
+			<name>西葛西</name>
+			<english>NishiKasai</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.664561968754</latitude>
+				<longitude>139.85960016266</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T17">
+			<name>葛西</name>
+			<english>Kasai</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.663616707285</latitude>
+				<longitude>139.87252979568</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T18">
+			<name>浦安</name>
+			<english>Urayasu</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.665902396469</latitude>
+				<longitude>139.89323627261</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T19">
+			<name>南行徳</name>
+			<english>MinamiGyotoku</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.672729758429</latitude>
+				<longitude>139.9022752051</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T20">
+			<name>行徳</name>
+			<english>Gyotoku</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.682619066806</latitude>
+				<longitude>139.91418577958</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T21">
+			<name>妙典</name>
+			<english>Myoden</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.691014304927</latitude>
+				<longitude>139.92428639192</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T22">
+			<name>原木中山</name>
+			<english>BarakiNakayama</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.7033</latitude>
+				<longitude>139.941915</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="T23">
+			<name>西船橋</name>
+			<english>NishiFunabashi</english>
+			<railway>tozai</railway>
+			<location>
+				<latitude>35.707174531922</latitude>
+				<longitude>139.95876734629</longitude>
+			</location>
+			<connection></connection>
+		</item>
+	</line>
+	<line id="yurakucho" name="有楽町線" color="ce9a40">
+		<item id="Y01">
+			<name>和光市</name>
+			<english>Wakoshi</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.78835</latitude>
+				<longitude>139.612865</longitude>
+			</location>
+			<connection>F01</connection>
+		</item>
+		<item id="Y02">
+			<name>地下鉄成増</name>
+			<english>ChikatetsuNarimasu</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.77674</latitude>
+				<longitude>139.63117</longitude>
+			</location>
+			<connection>F02</connection>
+		</item>
+		<item id="Y03">
+			<name>地下鉄赤塚</name>
+			<english>ChikatetsuAkatsuka</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.769980563949</latitude>
+				<longitude>139.64400032898</longitude>
+			</location>
+			<connection>F03</connection>
+		</item>
+		<item id="Y04">
+			<name>平和台</name>
+			<english>Heiwadai</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.757555</latitude>
+				<longitude>139.6543</longitude>
+			</location>
+			<connection>F04</connection>
+		</item>
+		<item id="Y05">
+			<name>氷川台</name>
+			<english>Hikawadai</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.74962</latitude>
+				<longitude>139.66547</longitude>
+			</location>
+			<connection>F05</connection>
+		</item>
+		<item id="Y06">
+			<name>小竹向原</name>
+			<english>KotakeMukaihara</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.743395</latitude>
+				<longitude>139.67952</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y07">
+			<name>千川</name>
+			<english>Senkawa</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.738175</latitude>
+				<longitude>139.6894</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y08">
+			<name>要町</name>
+			<english>Kanamecho</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.733215</latitude>
+				<longitude>139.69848</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y09">
+			<name>池袋</name>
+			<english>Ikebukuro</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.729185</latitude>
+				<longitude>139.710885</longitude>
+			</location>
+			<connection>M25,F09</connection>
+		</item>
+		<item id="Y10">
+			<name>東池袋</name>
+			<english>HigashiIkebukuro</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.72595</latitude>
+				<longitude>139.718865</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y11">
+			<name>護国寺</name>
+			<english>Gokokuji</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.71918</latitude>
+				<longitude>139.72745</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y12">
+			<name>江戸川橋</name>
+			<english>Edogawabashi</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.709295</latitude>
+				<longitude>139.73413</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y13">
+			<name>飯田橋</name>
+			<english>Iidabashi</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.701341786913</latitude>
+				<longitude>139.74320743767</longitude>
+			</location>
+			<connection>T06,N10</connection>
+		</item>
+		<item id="Y14">
+			<name>市ケ谷</name>
+			<english>Ichigaya</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.69257627467</latitude>
+				<longitude>139.73689052715</longitude>
+			</location>
+			<connection>N09</connection>
+		</item>
+		<item id="Y15">
+			<name>麴町</name>
+			<english>Kojimachi</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.684785</latitude>
+				<longitude>139.73735</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y16">
+			<name>永田町</name>
+			<english>Nagatacho</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.677895824731</latitude>
+				<longitude>139.74177299334</longitude>
+			</location>
+			<connection>G05,M13,Z04,N07</connection>
+		</item>
+		<item id="Y17">
+			<name>桜田門</name>
+			<english>Sakuradamon</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.677458492155</latitude>
+				<longitude>139.75188648683</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y18">
+			<name>有楽町</name>
+			<english>Yurakucho</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.675973756726</latitude>
+				<longitude>139.76228596063</longitude>
+			</location>
+			<connection>H07,C09</connection>
+		</item>
+		<item id="Y19">
+			<name>銀座一丁目</name>
+			<english>GinzaItchome</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.67451957578</latitude>
+				<longitude>139.76678626058</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y20">
+			<name>新富町</name>
+			<english>Shintomicho</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.670528424712</latitude>
+				<longitude>139.77359436862</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y21">
+			<name>月島</name>
+			<english>Tsukishima</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.664710585614</latitude>
+				<longitude>139.78440555067</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y22">
+			<name>豊洲</name>
+			<english>Toyosu</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.655153782867</latitude>
+				<longitude>139.79599444297</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y23">
+			<name>辰巳</name>
+			<english>Tatsumi</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.645775</latitude>
+				<longitude>139.81033</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="Y24">
+			<name>新木場</name>
+			<english>ShinKiba</english>
+			<railway>yurakucho</railway>
+			<location>
+				<latitude>35.64578</latitude>
+				<longitude>139.826605</longitude>
+			</location>
+			<connection></connection>
+		</item>
+	</line>
+	<line id="fukutoshin" name="副都心線" color="89411f">
+		<item id="F01">
+			<name>和光市</name>
+			<english>Wakoshi</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.78835</latitude>
+				<longitude>139.612865</longitude>
+			</location>
+			<connection>Y01</connection>
+		</item>
+		<item id="F02">
+			<name>地下鉄成増</name>
+			<english>ChikatetsuNarimasu</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.77674</latitude>
+				<longitude>139.63117</longitude>
+			</location>
+			<connection>Y02</connection>
+		</item>
+		<item id="F03">
+			<name>地下鉄赤塚</name>
+			<english>ChikatetsuAkatsuka</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.769980563949</latitude>
+				<longitude>139.64400032898</longitude>
+			</location>
+			<connection>Y03</connection>
+		</item>
+		<item id="F04">
+			<name>平和台</name>
+			<english>Heiwadai</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.757555</latitude>
+				<longitude>139.6543</longitude>
+			</location>
+			<connection>Y04</connection>
+		</item>
+		<item id="F05">
+			<name>氷川台</name>
+			<english>Hikawadai</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.74962</latitude>
+				<longitude>139.66547</longitude>
+			</location>
+			<connection>Y05</connection>
+		</item>
+		<item id="F06">
+			<name>小竹向原</name>
+			<english>KotakeMukaihara</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.743395</latitude>
+				<longitude>139.67952</longitude>
+			</location>
+			<connection>Y06</connection>
+		</item>
+		<item id="F07">
+			<name>千川</name>
+			<english>Senkawa</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.738175</latitude>
+				<longitude>139.6894</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="F08">
+			<name>要町</name>
+			<english>Kanamecho</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.733215</latitude>
+				<longitude>139.69848</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="F09">
+			<name>池袋</name>
+			<english>Ikebukuro</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.730345</latitude>
+				<longitude>139.71115</longitude>
+			</location>
+			<connection>M25,Y09</connection>
+		</item>
+		<item id="F10">
+			<name>雑司が谷</name>
+			<english>Zoshigaya</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.7202</latitude>
+				<longitude>139.714715</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="F11">
+			<name>西早稲田</name>
+			<english>NishiWaseda</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.707806110104</latitude>
+				<longitude>139.70911937484</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="F12">
+			<name>東新宿</name>
+			<english>HigashiShinjuku</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.69982897008</latitude>
+				<longitude>139.70784546487</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="F13">
+			<name>新宿三丁目</name>
+			<english>ShinjukuSanchome</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.69060872858</latitude>
+				<longitude>139.70472747478</longitude>
+			</location>
+			<connection>M09</connection>
+		</item>
+		<item id="F14">
+			<name>北参道</name>
+			<english>KitaSando</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.678502670042</latitude>
+				<longitude>139.70546824124</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="F15">
+			<name>明治神宮前〈原宿〉</name>
+			<english>MeijiJingumae</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.668204458022</latitude>
+				<longitude>139.70524072623</longitude>
+			</location>
+			<connection>C03</connection>
+		</item>
+		<item id="F16">
+			<name>渋谷</name>
+			<english>Shibuya</english>
+			<railway>fukutoshin</railway>
+			<location>
+				<latitude>35.659092689745</latitude>
+				<longitude>139.70256984845</longitude>
+			</location>
+			<connection>G01,Z01</connection>
+		</item>
+	</line>
+	<line id="marunouchibranch" name="丸ノ内線" color="fe0d09">
+		<item id="m03">
+			<name>方南町</name>
+			<english>Honancho</english>
+			<railway>marunouchibranch</railway>
+			<location>
+				<latitude>35.683515</latitude>
+				<longitude>139.657935</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="m04">
+			<name>中野富士見町</name>
+			<english>NakanoFujimicho</english>
+			<railway>marunouchibranch</railway>
+			<location>
+				<latitude>35.69082</latitude>
+				<longitude>139.668155</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="m05">
+			<name>中野新橋</name>
+			<english>NakanoShimbashi</english>
+			<railway>marunouchibranch</railway>
+			<location>
+				<latitude>35.691685760971</latitude>
+				<longitude>139.67400113918</longitude>
+			</location>
+			<connection></connection>
+		</item>
+		<item id="m06">
+			<name>中野坂上</name>
+			<english>NakanoSakaue</english>
+			<railway>marunouchibranch</railway>
+			<location>
+				<latitude>35.697085</latitude>
+				<longitude>139.682205</longitude>
+			</location>
+			<connection></connection>
+		</item>
+	</line>
+
+  <line id="oedo" name="大江戸線" color="b6007a">
+    <item id="E01">
+      <name>新宿西口</name>
+      <english>Shinjukunishiguchi</english>
+      <location>
+        <latitude>35.690081</latitude>
+        <longitude>139.702369</longitude>
+      </location>
+      <connection>E28</connection>
+    </item>
+    <item id="E02">
+      <name>東新宿</name>
+      <english>HigashiShinjuku</english>
+      <location>
+        <latitude>35.694686</latitude>
+        <longitude>139.710764</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E03">
+      <name>若松河田</name>
+      <english>Wakamatsukawada</english>
+      <location>
+        <latitude>35.695984</latitude>
+        <longitude>139.7214</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E04">
+      <name>牛込柳町</name>
+      <english>Ushigomeyanagicho</english>
+      <location>
+        <latitude>35.696284</latitude>
+        <longitude>139.728244</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E05">
+      <name>牛込神楽坂</name>
+      <english>UshigomeKagurazaka</english>
+      <location>
+        <latitude>35.697617</latitude>
+        <longitude>139.73902</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E06">
+      <name>飯田橋</name>
+      <english>Iidabashi</english>
+      <location>
+        <latitude>35.698831</latitude>
+        <longitude>139.748234</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E07">
+      <name>春日</name>
+      <english>Kasuga</english>
+      <location>
+        <latitude>35.706403</latitude>
+        <longitude>139.756481</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E08">
+      <name>本郷三丁目</name>
+      <english>Hongo3chome</english>
+      <location>
+        <latitude>35.703437</latitude>
+        <longitude>139.763134</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E09">
+      <name>上野御徒町</name>
+      <english>Uenookachimachi</english>
+      <location>
+        <latitude>35.704203</latitude>
+        <longitude>139.777853</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E10">
+      <name>新御徒町</name>
+      <english>Shinokachimachi</english>
+      <location>
+        <latitude>35.70382</latitude>
+        <longitude>139.785162</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E11">
+      <name>蔵前</name>
+      <english>Kuramae</english>
+      <location>
+        <latitude>35.7</latitude>
+        <longitude>139.794154</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E12">
+      <name>両国</name>
+      <english>Ryogoku</english>
+      <location>
+        <latitude>35.692887</latitude>
+        <longitude>139.795737</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E13">
+      <name>森下</name>
+      <english>Morishita</english>
+      <location>
+        <latitude>35.684723</latitude>
+        <longitude>139.800265</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E14">
+      <name>清澄白河</name>
+      <english>KiyosumiShirakawa</english>
+      <location>
+        <latitude>35.678867</latitude>
+        <longitude>139.802073</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E15">
+      <name>門前仲町</name>
+      <english>MonzenNakacho</english>
+      <location>
+        <latitude>35.668745</latitude>
+        <longitude>139.799009</longitude>
+      </location>
+      <connection>T12</connection>
+    </item>
+    <item id="E16">
+      <name>月島</name>
+      <english>Tsukishima</english>
+      <location>
+        <latitude>35.661631</latitude>
+        <longitude>139.787453</longitude>
+      </location>
+      <connection>Y21</connection>
+    </item>
+    <item id="E17">
+      <name>勝どき</name>
+      <english>Kachidoki</english>
+      <location>
+        <latitude>35.655267</latitude>
+        <longitude>139.779662</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E18">
+      <name>築地市場</name>
+      <english>Tsukijishijo</english>
+      <location>
+        <latitude>35.661656</latitude>
+        <longitude>139.770134</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E19">
+      <name>汐留</name>
+      <english>Shiodome</english>
+      <location>
+        <latitude>35.659551</latitude>
+        <longitude>139.763066</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E20">
+      <name>大門</name>
+      <english>Daimon</english>
+      <location>
+        <latitude>35.653545</latitude>
+        <longitude>139.757878</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E21">
+      <name>赤羽橋</name>
+      <english>Akabanebashi</english>
+      <location>
+        <latitude>35.651767</latitude>
+        <longitude>139.746859</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E22">
+      <name>麻布十番</name>
+      <english>AzabuJuban</english>
+      <location>
+        <latitude>35.651442</latitude>
+        <longitude>139.740267</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E23">
+      <name>六本木</name>
+      <english>Roppongi</english>
+      <location>
+        <latitude>35.659598</latitude>
+        <longitude>139.734659</longitude>
+      </location>
+      <connection>H04</connection>
+    </item>
+    <item id="E24">
+      <name>青山一丁目</name>
+      <english>Aoyama1chome</english>
+      <location>
+        <latitude>35.669528</latitude>
+        <longitude>139.727375</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E25">
+      <name>国立競技場</name>
+      <english>KokuritsuKyogijo</english>
+      <location>
+        <latitude>35.676823</latitude>
+        <longitude>139.717342</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E26">
+      <name>代々木</name>
+      <english>Yoyogi</english>
+      <location>
+        <latitude>35.679826</latitude>
+        <longitude>139.705256</longitude>
+      </location>
+      <connection />
+    </item>
+    <item id="E27">
+      <name>新宿</name>
+      <english>Shinjuku</english>
+      <location>
+        <latitude>35.687686</latitude>
+        <longitude>139.703472</longitude>
+      </location>
+      <connection>M08</connection>
+    </item>
+    <item id="E28">
+      <name>都庁前</name>
+      <english>Tochomae</english>
+      <location>
+        <latitude>35.687317</latitude>
+        <longitude>139.695784</longitude>
+      </location>
+      <connection>E01</connection>
+    </item>
+    <item id="E29">
+      <name>西新宿五丁目</name>
+      <english>NishiShinjuku5chome</english>
+      <location>
+        <latitude>35.686564</latitude>
+        <longitude>139.687517</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E30">
+      <name>中野坂上</name>
+      <english>NakanoSakaue</english>
+      <location>
+        <latitude>35.694687</latitude>
+        <longitude>139.686123</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E31">
+      <name>東中野</name>
+      <english>HigashiNakano</english>
+      <location>
+        <latitude>35.702998</latitude>
+        <longitude>139.689056</longitude>
+      </location>
+      <connection />
+    </item>
+    <item id="E32">
+      <name>中井</name>
+      <english>Nakai</english>
+      <location>
+        <latitude>35.711834</latitude>
+        <longitude>139.690478</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E33">
+      <name>落合南長崎</name>
+      <english>Ochiaiminaminagasaki</english>
+      <location>
+        <latitude>35.720378</latitude>
+        <longitude>139.686517</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E34">
+      <name>新江古田</name>
+      <english>Shinegota</english>
+      <location>
+        <latitude>35.729309</latitude>
+        <longitude>139.673867</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E35">
+      <name>練馬</name>
+      <english>Nerima</english>
+      <location>
+        <latitude>35.734592</latitude>
+        <longitude>139.656778</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E36">
+      <name>豊島園</name>
+      <english>Toshimaen</english>
+      <location>
+        <latitude>35.738829</latitude>
+        <longitude>139.652322</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E37">
+      <name>練馬春日町</name>
+      <english>Nerimakasugacho</english>
+      <location>
+        <latitude>35.747909</latitude>
+        <longitude>139.64427</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="E38">
+      <name>光が丘</name>
+      <english>Hikarigaoka</english>
+      <location>
+        <latitude>35.755301</latitude>
+        <longitude>139.631814</longitude>
+      </location>
+      <connection/>
+    </item>
+  </line>
+  <line id="yamanote" name="山手線" color="068a0f">
+    <item id="Ya00">
+      <name>東京</name>
+      <english>Tokyo</english>
+      <location>
+        <latitude>35.6825145</latitude>
+        <longitude>139.7661485</longitude>
+      </location>
+      <connection>Ya28,T09</connection>
+    </item>
+    <item id="Ya01">
+      <name>有楽町</name>
+      <english>Yurakucho</english>
+      <location>
+        <latitude>35.675072</latitude>
+        <longitude>139.76333</longitude>
+      </location>
+      <connection>Y18</connection>
+    </item>
+    <item id="Ya02">
+      <name>新橋</name>
+      <english>shinbashi</english>
+      <location>
+        <latitude>35.6661435</latitude>
+        <longitude>139.75907</longitude>
+      </location>
+      <connection>G08</connection>
+    </item>
+    <item id="Ya03">
+      <name>浜松町</name>
+      <english>hamamatsucho</english>
+      <location>
+        <latitude>35.655417</latitude>
+        <longitude>139.7570405</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya04">
+      <name>田町</name>
+      <english>tamachi</english>
+      <location>
+        <latitude>35.645719</latitude>
+        <longitude>139.746818</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya05">
+      <name>品川</name>
+      <english>shinagawa</english>
+      <location>
+        <latitude>35.6298135</latitude>
+        <longitude>139.740837</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya06">
+      <name>大崎</name>
+      <english>osaki</english>
+      <location>
+        <latitude>35.619748</latitude>
+        <longitude>139.728609</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya07">
+      <name>五反田</name>
+      <english>gotanda</english>
+      <location>
+        <latitude>35.626804</latitude>
+        <longitude>139.723863</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya08">
+      <name>目黒</name>
+      <english>Meguro</english>
+      <location>
+        <latitude>35.634434</latitude>
+        <longitude>139.71526</longitude>
+      </location>
+      <connection>N01</connection>
+    </item>
+    <item id="Ya09">
+      <name>恵比寿</name>
+      <english>Ebisu</english>
+      <location>
+        <latitude>35.6469435</latitude>
+        <longitude>139.710418</longitude>
+      </location>
+      <connection>H02</connection>
+    </item>
+    <item id="Ya10">
+      <name>渋谷</name>
+      <english>Shibuya</english>
+      <location>
+        <latitude>35.6582445</latitude>
+        <longitude>139.7000375</longitude>
+      </location>
+      <connection>Z01,G01,F16</connection>
+    </item>
+    <item id="Ya11">
+      <name>原宿</name>
+      <english>harajyuku</english>
+      <location>
+        <latitude>35.670133</latitude>
+        <longitude>139.702599</longitude>
+      </location>
+      <connection>C03,F15</connection>
+    </item>
+    <item id="Ya12">
+      <name>代々木</name>
+      <english>yoyogi</english>
+      <location>
+        <latitude>35.682524</latitude>
+        <longitude>139.7011045</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya13">
+      <name>新宿</name>
+      <english>shinjyuku</english>
+      <location>
+        <latitude>35.6909005</latitude>
+        <longitude>139.7001605</longitude>
+      </location>
+      <connection>M08,E27,Cu10</connection>
+    </item>
+    <item id="Ya14">
+      <name>新大久保</name>
+      <english>shinokubo</english>
+      <location>
+        <latitude>35.701612</latitude>
+        <longitude>139.7013185</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya15">
+      <name>高田馬場</name>
+      <english>Takadanobaba</english>
+      <location>
+        <latitude>35.711498</latitude>
+        <longitude>139.7041715</longitude>
+      </location>
+      <connection>T03</connection>
+    </item>
+    <item id="Ya16">
+      <name>目白</name>
+      <english>mejiro</english>
+      <location>
+        <latitude>35.7215935</latitude>
+        <longitude>139.7068865</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya17">
+      <name>池袋</name>
+      <english>Ikebukuro</english>
+      <location>
+        <latitude>35.7290265</latitude>
+        <longitude>139.7106585</longitude>
+      </location>
+      <connection>Y09,M25</connection>
+    </item>
+    <item id="Ya18">
+      <name>大塚</name>
+      <english>otsuka</english>
+      <location>
+        <latitude>35.7310095</latitude>
+        <longitude>139.7286875</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya19">
+      <name>巣鴨</name>
+      <english>sugamo</english>
+      <location>
+        <latitude>35.733698</latitude>
+        <longitude>139.7391555</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya20">
+      <name>駒込</name>
+      <english>Komagome</english>
+      <location>
+        <latitude>35.737347</latitude>
+        <longitude>139.74897</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya21">
+      <name>田端</name>
+      <english>tabashi</english>
+      <location>
+        <latitude>35.737712</latitude>
+        <longitude>139.760733</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya22">
+      <name>西日暮里</name>
+      <english>NishiNippori</english>
+      <location>
+        <latitude>35.7315435</latitude>
+        <longitude>139.7650775</longitude>
+      </location>
+      <connection>C16</connection>
+    </item>
+    <item id="Ya23">
+      <name>日暮里</name>
+      <english>nippori</english>
+      <location>
+        <latitude>35.7278895</latitude>
+        <longitude>139.7713875</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya24">
+      <name>鶯谷</name>
+      <english>uguisudani</english>
+      <location>
+        <latitude>35.7218655</latitude>
+        <longitude>139.7784465</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya25">
+      <name>上野</name>
+      <english>Ueno</english>
+      <location>
+        <latitude>35.7143235</latitude>
+        <longitude>139.777123</longitude>
+      </location>
+      <connection>H17,G16</connection>
+    </item>
+    <item id="Ya26">
+      <name>御徒町</name>
+      <english>okachimachi</english>
+      <location>
+        <latitude>35.706892</latitude>
+        <longitude>139.7741755</longitude>
+      </location>
+      <connection/>
+    </item>
+    <item id="Ya27">
+      <name>秋葉原</name>
+      <english>Akihabara</english>
+      <location>
+        <latitude>35.698822</latitude>
+        <longitude>139.774292</longitude>
+      </location>
+      <connection>H15,So01</connection>
+    </item>
+    <item id="Ya28">
+      <name>神田</name>
+      <english>Kanda</english>
+      <location>
+        <latitude>35.692071</latitude>
+        <longitude>139.7706875</longitude>
+      </location>
+      <connection>Ya00,G13,Cu01</connection>
+    </item>
+    <item id="Ya29">
+      <name>東京</name>
+      <english>Tokyo</english>
+      <location>
+        <latitude>35.68251450001</latitude>
+        <longitude>139.76614850001</longitude>
+      </location>
+      <connection>Ya28,T09</connection>
+    </item>
+  </line>
+</stations>

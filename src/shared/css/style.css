@@ -1,0 +1,293 @@
+/*
+	style.css
+*/
+
+html,
+body{
+	height: 100%;
+	overflow: hidden;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	color: #000;
+	background: #FFF;
+	font-size: 75%;
+	min-width: 320px;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+
+h1,h2,h3,h4,h5,h6,p,blockquote,
+ol,ul,li,dl,dt,dd
+{
+	margin: 0;
+	padding: 0;
+	font-size: 1.0em;
+	line-height: 1.0;
+}
+
+a{
+	color: #333; 
+	text-decoration: none;
+}
+
+a:active,
+a:hover {
+	text-decoration: underline;
+}
+
+img{
+	vertical-align: bottom;
+}
+
+a img{
+	border: none;
+}
+
+hr{
+	display: none;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+}
+
+#progress{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 200px;
+	height: 24px;
+	margin: -12px 0 0 -100px;
+	text-align: center;
+	font-size: 24px;
+	color: #999;
+}
+
+#siteHead{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 100;
+}
+
+#siteBody{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+	background: repeat-y -100px 0 url(../img/20140916172504-1.png);
+}
+#siteFoot{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+	background-color: rgba(255,255,255,0.8);
+	z-index: 100;
+}
+
+#title{
+	margin: 20px 0 0 20px;
+	font-size: 24px;
+}
+#description{
+	margin: 5px 0 0 20px;
+	font-size: 8px;
+}
+#btnAbout{
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	font-size: 11px;
+}
+
+.fb-like{
+	position: fixed;
+	right: 20px;
+	top: 40px;
+	display: none !important;
+}
+
+#btnAbout a{
+	display: inline-block;
+	padding: 5px;
+}
+
+#copyright{
+	margin: 6px 20px;
+	font-size: 9px;
+}
+
+canvas{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: -100;
+	display: block;
+}
+
+body.sp canvas{
+	zoom: 0.5;
+}
+
+#timer{
+	position: fixed;
+	left: 20px;
+	top: 100px;
+	font-size: 60px;
+	line-height: 1.0;
+	/*color: rgba(0,0,0,0.4);*/
+	z-index: 100;
+}
+
+#infoBlock01{
+	position: fixed;
+	left: 20px;
+	bottom: 40px;
+	z-index: 100;
+}
+#sname{
+	font-size: 48px;
+}
+#sename{
+	margin-top: 3px;
+	margin-left: 3px;
+	text-transform: capitalize;
+	font-size: 16px;
+}
+#stime{
+	margin-top: 9px;
+	font-size: 32px;
+}
+
+#aboutWrapper{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0);
+	display: none;
+}
+
+#aboutWrapper.show{
+	display: block;
+}
+
+#about{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	margin: -120px 0 0 -200px;
+	padding: 20px;
+	width: 360px;
+	height: 200px;
+	color: #FFF;
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 0 0 16px rgba(0,0,0,0.05) inset;
+	box-shadow: 0 0 16px rgba(0,0,0,0.05);
+}
+
+.sp #about{
+	margin: -120px 0 0 -120px;
+	width: 200px;
+	height: 240px;
+}
+
+#about h1{
+	font-weight: bold;
+}
+
+#about p{
+	margin-top: 1em;
+	line-height: 1.8;
+}
+#about p.note,
+#about p.alt{
+	font-size: 9px;
+}
+
+/*
+	animation
+*/
+
+.a0{
+	opacity: 0;
+}
+
+.fadeIn{
+	opacity: 1.0 !important;
+	-webkit-animation: fadeIn01 1.2s ease-in-out 0;
+	-moz-animation: fadeIn01 1.2s ease-in-out 0;
+}
+@-webkit-keyframes fadeIn01 {
+	0% {	opacity: 0;	}
+	100% {	opacity: 1.0;	}
+}
+@-moz-keyframes fadeIn01 {
+	0% {	opacity: 0;	}
+	100% {	opacity: 1.0;	}
+}
+.fadeOut{
+	opacity: 0.0 !important;
+	-webkit-animation: fadeOut01 1.2s ease-in-out 0;
+	-moz-animation: fadeOut01 1.2s ease-in-out 0;
+}
+@-webkit-keyframes fadeOut01 {
+	0% {	opacity: 1.0;	}
+	100% {	opacity: 0.0;	}
+}
+@-moz-keyframes fadeOut01 {
+	0% {	opacity: 1.0;	}
+	100% {	opacity: 0.0;	}
+}
+
+.fadeIn2About{
+	opacity: 1.0 !important;
+	-webkit-animation: fadeIn02 1.2s ease-in-out 0;
+	-moz-animation: fadeIn02 1.2s ease-in-out 0;
+}
+@-webkit-keyframes fadeIn02 {
+	0% {	opacity: 0;	}
+	50% {	opacity: 0;	}
+	100% {	opacity: 1.0;	}
+}
+@-moz-keyframes fadeIn02 {
+	0% {	opacity: 0;	}
+	50% {	opacity: 0;	}
+	100% {	opacity: 1.0;	}
+}
+
+.timeIn{
+	margin-top: 0;
+	-webkit-animation: timeIn01 1.2s ease-out 0;
+	-moz-animation: timeIn01 1.2s ease-out 0;
+}
+@-webkit-keyframes timeIn01 {
+	0% {	margin-top: 30px;	}
+	100% {	margin-top: 0;	}
+}
+@-moz-keyframes timeIn01 {
+	0% {	margin-top: 30px;	}
+	100% {	margin-top: 0;	}
+}
+
+.clearfix {display: inline-block;}
+/* Hides from IE-mac ﾂ･*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

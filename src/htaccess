@@ -1,0 +1,18 @@
+RewriteEngine on
+RewriteCond %{HTTP:Accept-Encoding} gzip
+RewriteCond %{REQUEST_FILENAME}\.gz -s
+RewriteRule .+ %{REQUEST_URI}.gz
+  
+<FilesMatch "\.css\.gz$">
+  ForceType   text/css
+  AddEncoding x-gzip .gz
+</FilesMatch>
+  
+<FilesMatch "\.js\.gz$">
+  ForceType   application/x-javascript
+  AddEncoding x-gzip .gz
+</FilesMatch>
+
+<Files ~ ".(gif|jpe?g|png|ico|js|css|gz|woff)$">
+  Header set Cache-Control "max-age=604800"
+</Files>

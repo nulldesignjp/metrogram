@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta property="og:title" content="metrogram">
+<meta property="og:site_name" content="nulldesign.jp">
+<meta property="og:type" content="article">
+<meta property="og:image" content="http://nulldesign.jp/metrogram/shared/img/ogp.png">
+<meta property="og:url" content="http://nulldesign.jp/metrogram/">
+<meta property="og:description" content="">
+<meta property="fb:app_id" content="1491206354474104" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://nulldesign.jp/metrogram/shared/img/120x120.png">
+<link rel="shortcut icon" href="shared/img/favicon.ico">
+<style>
+@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 300;src: local('Open Sans Light'), local('OpenSans-Light'), url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTaRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {font-family: 'Open Sans';font-style: normal;font-weight: 400;src: local('Open Sans'), local('OpenSans'), url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');}
+html,body{height:100%;overflow:hidden;}
+body{margin:0;padding:0;font-family:'Open Sans';font-weight:300;color:#000;background:#FFF;font-size:75%;min-width:320px;background: -webkit-linear-gradient(-45deg, rgb(230,230,230) 0%,rgb(255,255,255) 100%);}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+h1,h2,h3,h4,h5,h6,p,blockquote,ol,ul,li,dl,dt,dd{margin:0;padding:0;font-size:1.0em;line-height:1.0;}
+a{color:#333; text-decoration:none;}
+a:active,a:hover {text-decoration:underline;}
+img{vertical-align:bottom;}
+a img{border:none;}
+hr{display:none;}
+#container{width:100%;height:100%;}
+#progress{position:fixed;left:50%;top:50%;width:200px;height:24px;margin:-12px 0 0 -100px;text-align:center;font-size:24px;color:#999;}
+#siteHead{position:fixed;left:0;top:0;width:100%;height:80px;background-color:rgba(255,255,255,0.8);z-index:100;}
+#siteBody{position:fixed;left:0;top:0;width:100%;height:100%;z-index:-100;background:repeat-y -100px 0 url(./shared/img/20140916172504-1.png);}
+#siteFoot{position:fixed;left:0;bottom:0;width:100%;height:20px;background-color:rgba(255,255,255,0.8);z-index:100;}
+#title{margin:20px 0 0 20px;font-size:24px;}
+#description{margin:5px 0 0 20px;font-size:8px;}
+#btnAbout{position:fixed;right:20px;top:20px;font-size:11px;}
+#btnAbout a{display:inline-block;padding:5px;}
+#copyright{margin:6px 20px;font-size:9px;}
+canvas{position:fixed;left:0;top:0;z-index:-100;display:block;}
+body.sp canvas{zoom:0.5;}
+#timer{position:fixed;left:20px;top:100px;font-size:60px;line-height:1.0;z-index:100;}
+#infoBlock01{position:fixed;left:20px;bottom:40px;z-index:100;}
+#sname{font-size:48px;}
+#sename{margin-top:3px;margin-left:3px;text-transform:capitalize;font-size:16px;}
+#stime{margin-top:9px;font-size:32px;}
+#aboutWrapper{position:fixed;left:0;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0);display:none;}
+#aboutWrapper.show{display:block;}
+#about{position:fixed;left:50%;top:50%;margin:-120px 0 0 -200px;padding:20px;width:360px;height:200px;color:#FFF;background-color:rgba(0,0,0,0.6);box-shadow:0 0 16px rgba(0,0,0,0.05) inset;box-shadow:0 0 16px rgba(0,0,0,0.05);}
+.sp #about{margin:-120px 0 0 -120px;width:200px;height:240px;}
+#about h1{font-weight:bold;}
+#about p{margin-top:1em;line-height:1.8;}
+#about p.note,#about p.alt{font-size:9px;}
+.a0{opacity:0;}
+.fadeIn{opacity:1.0 !important;-webkit-animation:fadeIn01 1.2s ease-in-out 0;-moz-animation:fadeIn01 1.2s ease-in-out 0;}
+@-webkit-keyframes fadeIn01 {0% {opacity:0;}100% {opacity:1.0;}}
+@-moz-keyframes fadeIn01 {0% {opacity:0;}100% {opacity:1.0;}}
+.fadeOut{opacity:0.0 !important;-webkit-animation:fadeOut01 1.2s ease-in-out 0;-moz-animation:fadeOut01 1.2s ease-in-out 0;}
+@-webkit-keyframes fadeOut01 {0% {opacity:1.0;}100% {opacity:0.0;}}
+@-moz-keyframes fadeOut01 {0% {opacity:1.0;}100% {opacity:0.0;}}
+.fadeIn2About{opacity:1.0 !important;-webkit-animation:fadeIn02 1.2s ease-in-out 0;-moz-animation:fadeIn02 1.2s ease-in-out 0;}
+@-webkit-keyframes fadeIn02 {0% {opacity:0;}50% {opacity:0;}100% {opacity:1.0;}}
+@-moz-keyframes fadeIn02 {0% {opacity:0;}50% {opacity:0;}100% {opacity:1.0;}}
+.timeIn{margin-top:0;-webkit-animation:timeIn01 1.2s ease-out 0;-moz-animation:timeIn01 1.2s ease-out 0;}
+@-webkit-keyframes timeIn01 {0% {margin-top:30px;}100% {margin-top:0;}}
+@-moz-keyframes timeIn01 {0% {margin-top:30px;}100% {margin-top:0;}}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+
+#siteFoot{height: 30px;}
+#siteFoot p#copyright{
+	display: inline-block;
+	width: 240px;
+}
+#siteFoot ul{
+	float: right;
+	margin: 4px 15px 0 0;
+	padding: 0;
+}
+#siteFoot li{
+	display: inline-block;
+	margin: -2px 5px 0 0;
+	padding: 0;
+}
+
+#tli{
+	margin-top: 0px;
+}
+
+.sp #siteFoot{
+	height: 60px;
+}
+
+.sp #infoBlock01{
+	bottom: 80px;
+}
+
+</style>
+<title>metrogram</title>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId=1491206354474104&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<article id="container">
+<header id="siteHead">
+<h1 id="title">metrogram</h1>
+<h2 id="description">TOKYO METRO REALTIME SIMULATION.</h2>
+<p id="btnAbout"><a href="#">&raquo; about</a></p>
+<!--/ siteHead --></header>
+<div id="siteBody" class="a0">
+<p id="timer"></p>
+<div id="infoBlock01">
+<p id="sname"></p>
+<p id="sename"></p>
+<p id="stime"></p>
+<!--/ infoBlock01 --></div>
+<!--/ siteBody --></div>
+
+<footer id="siteFoot">
+<p id="copyright">COPYRIGHT &copy; 2014 nulldesign.jp ALL RIGHTS RESERVED.</p>
+<ul>
+<li><div class="fb-like" data-href="http://nulldesign.jp/metrogram/" data-layout="button" data-action="like" data-show-faces="true" data-share="false"></div></li>
+<li id="tli"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://nulldesign.jp/metrogram/" data-text="metrogram" data-count="none">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+<li><a href="http://b.hatena.ne.jp/entry/http://nulldesign.jp/metrogram/" class="hatena-bookmark-button" data-hatena-bookmark-title="metrogram" data-hatena-bookmark-layout="simple" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script></li>
+</ul>
+<!--/ siteFoot --></footer>
+<!--/ container --></article>
+
+<div id="aboutWrapper">
+<div id="about">
+<h1>metrogram について</h1>
+<p>metrogramは東京の地下鉄に関するデータ（路線/位置/時刻表などの情報）をもとに、普段見る事の出来ない人と電車の流れを視覚的にとらえるプロジェクトです。</p>
+<p class="note">※ 各データは2014年9月時のを利用しており、必ずしも現状の地下鉄状況を正確にに再現している訳ではありません。</p>
+<p class="alt">created by nulldesign.jp at 2014.09.11</p>
+<!--/ about --></div>
+<!--/ aboutWrapper --></div>
+<script type="text/javascript" src="shared/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="shared/js/utils.js"></script>
+<script type="text/javascript" src="shared/js/schdule.js"></script>
+<script type="text/javascript" src="shared/js/randomtypo.js"></script>
+<script type="text/javascript" src="shared/js/SplineCurve.js"></script>
+<script type="text/javascript" src="shared/js/engine.js"></script>
+</body>
+</html>
